@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MyActivity"
+    tools:showIn="@layout/activity_my">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageViewBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/b"
+        android:scaleType="fitStart"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp">
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="100dp"
+        android:paddingLeft="20dp">
+
+        <ImageButton
+            android:id="@+id/img5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="180dp"
+        android:paddingLeft="20dp">
+
+        <ImageButton
+            android:id="@+id/img9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="260dp"
+        android:paddingLeft="20dp">
+
+        <ImageButton
+            android:id="@+id/img13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/img16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rub1"
+            android:visibility="visible" />
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="340dp"
+        android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/BasicText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Moves: 0"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+</LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>

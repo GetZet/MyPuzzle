@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Puzzle</string>
+    <string name="action_newgame">New game</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="text_moves">Moves:</string>
+    <string name="game_over">Game Over!</string>
+    <string name="dialog_title">About Puzzle</string>
+    <string name="dialog_message">Graduation work 2018</string>
+    <string name="dialog_author">Vitalii Kariy</string>
+    <string name="dialog_contact">vkariy@gmail.com</string>
+</resources>
